@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "message": "Data Found!",
+  "trips": [
+    {
+      "id": "1",
+      "title": "Trip Name",
+      "description": "Trip Description",
+      "start_date": "2018-04-20",
+      "is_start":"1",
+      "is_end": "0",
+      "total_amount": "100"
+
+    },
+    {
+      "id": "1",
+      "title": "Trip Name",
+      "description": "Trip Description",
+      "start_date": "2018-04-20",
+      "is_start":"1",
+      "is_end": "0",
+      "total_amount": "200"
+
+    }
+  ]
+}
+

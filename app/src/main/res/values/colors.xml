@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#263238</color>
+    <color name="color_tab_1">#455C65</color>
+    <color name="color_tab_2">#00886A</color>
+    <color name="color_tab_3">#8B6B62</color>
+    <color name="black">#212121</color>
+    <color name="toolbarback">#3484F7</color>
+
+    <color name="white">#ffffff</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#008000</color>
+
+    <color name="text_color_heading">#000000</color>
+    <color name="text_color_second_heading">#333333</color>
+    <color name="text_color_third_heading">#424242</color>
+    <color name="text_color_normal">#616161</color>
+    <color name="text_hint_color">#9E9E9E</color>
+
+    <!--For progress bar circular colors to show -->
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <color name="statusBarColor">#263238</color>
+    <color name="actionBarBackgroundColor">#607D8B</color>
+    <color name="backgroundcolor_screens">#CCFFCC</color>
+    <color name="button_text_color">#fff</color>
+    <color name="text_color">#3f439c</color>
+
+
+    <!-- Tab Colors -->
+    <color name="tabBarBackgroundColor">@color/actionBarBackgroundColor</color>  <!-- Same as action bar back ground color -->
+    <color name="tabBarIndicatorColor">#FFFFFF</color>
+    <color name="tab_unselected_color">#FFFFFF</color>
+    <color name="normal_text_color">#FFFFFF</color>
+
+    <!-- Drawer Control Colors -->
+    <color name="drawer_button_background">#2F4F4F</color>
+    <color name="drawer_top_background">#808080</color>
+    <color name="screen_background_color">#ececec</color>
+    <color name="dark_gray_color">#9c9c9c</color>
+
+
+    <color name="light_green_color">#008000</color>
+
+    <!-- Transparent Colors -->
+    <color name="white_fifty_transparent">#80FFFFFF</color>
+    <color name="white_fourty_transparent">#66FFFFFF</color>
+    <color name="black_fourty_transparent">#66000000</color>
+    <color name="black_Eighty_transparent">#CC000000</color>
+
+    <color name="actionBarBackgroundColor_20_perc">#CCD6192D</color>
+
+
+
+    <color name="white_transparent">#80FFFFFF</color>
+    <color name="spinner_background_color">#dadbdf</color>
+    <color name="button_back_ground_color">#30BA4A</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#FFFFFF</color>
+    <color name="dot_dark_screen2">#FFFFFF</color>
+    <color name="dot_dark_screen3">#FFFFFF</color>
+    <color name="dot_dark_screen4">#FFFFFF</color>
+    <color name="dot_dark_screen5">#FFFFFF</color>
+    <color name="dot_dark_screen6">#FFFFFF</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f9cc1a</color>
+    <color name="dot_light_screen2">#f9cc1a</color>
+    <color name="dot_light_screen3">#f9cc1a</color>
+    <color name="dot_light_screen4">#f9cc1a</color>
+    <color name="dot_light_screen5">#f9cc1a</color>
+    <color name="dot_light_screen6">#f9cc1a</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+        <item>@color/dot_light_screen6</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+        <item>@color/dot_dark_screen6</item>
+    </array>
+
+
+
+
+
+</resources>

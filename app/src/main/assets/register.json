@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "message": "Registration Done!",
+  "user_details": {
+    "user_id": "1",
+    "user_email": "rvats011990@gmail.com",
+    "user_mobile_number": "7838412615",
+    "user_name": "Rahul vats",
+    "profile_photo_url": "https://www.infrascan.net/demo/assets/img/avatar5.png"
+  }
+}
+
+

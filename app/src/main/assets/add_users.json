@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "message": "Users",
+  "users": [
+    {
+      "id": "1",
+      "name": "Rahul Vats",
+      "email": "rvats011990@gmail.com",
+      "mobile_number": "7838412615"
+    },
+    {
+      "id": "1",
+      "name": "Dhiru",
+      "email": "rvats011990@gmail.com",
+      "mobile_number": "7838412615"
+    },
+    {
+      "id": "1",
+      "name": "Dhiru",
+      "email": "rvats011990@gmail.com",
+      "mobile_number": "7838412615"
+    }
+
+  ]
+}
+
+

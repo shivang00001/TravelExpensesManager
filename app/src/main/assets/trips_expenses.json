@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "message": "Data Found!",
+  "data": [
+    {
+      "id": "1",
+      "title": "Food",
+      "amount": "80",
+      "expense_by_name": "Rahul",
+      "expense_by_id": "1",
+      "expense_date": "21-Apr-2018"
+    },
+    {
+      "id": "1",
+      "title": "Jucies",
+      "amount": "20",
+      "expense_by_name": "Rahul",
+      "expense_by_id": "2",
+      "expense_date": "21-Apr-2018"
+    }
+  ]
+}
+
+

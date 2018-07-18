@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:hint="Username"
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edittext"/>
+
+    <EditText
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edittext"/>
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/capsule_button"
+        android:minHeight="30dp"
+        android:minWidth="30dp"
+        android:text="Sign In"
+        android:textColor="@color/button_text_color"
+        android:textSize="14dp"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="OR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/buttonForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/capsule_button_forgot_pass"
+            android:minHeight="30dp"
+            android:minWidth="30dp"
+            android:text="Forgot Password?"
+            android:textColor="@color/black"
+            android:textSize="14dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

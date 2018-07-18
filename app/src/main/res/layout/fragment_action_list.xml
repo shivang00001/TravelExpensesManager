@@ -1,0 +1,191 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/outerLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:weightSum="10"
+        android:id="@+id/linearLayoutHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:textSize="12dp"
+            android:id="@+id/textViewHeadingText"
+            android:layout_width="0dp"
+            android:layout_weight="7.5"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Contact Info"
+            android:textAllCaps="true"
+            android:textColor="@color/text_color_heading"/>
+
+    </LinearLayout>
+
+    <!-- Item 1 -->
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:id="@+id/linearLayoutItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:src="@drawable/total"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewFieldItem1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="Total(Rs 1000)"
+            android:textColor="@color/text_color_heading"/>
+
+        <LinearLayout
+            android:gravity="right|center_vertical"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/right_pointing_arrow"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSeprator1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/text_color_heading"
+        android:orientation="vertical"
+        android:visibility="gone"/>
+
+    <!-- Item 2 -->
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:id="@+id/linearLayoutItem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:src="@drawable/total"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewFieldItem2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="Total(Rs 1000)"
+            android:textColor="@color/text_color_heading"/>
+
+        <LinearLayout
+            android:gravity="right|center_vertical"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/right_pointing_arrow"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSeprator2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/text_color_heading"
+        android:orientation="vertical"
+        android:visibility="gone"/>
+
+    <!-- Item 3 -->
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:id="@+id/linearLayoutItem3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:src="@drawable/total"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewFieldItem3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="Total(Rs 1000)"
+            android:textColor="@color/text_color_heading"/>
+
+        <LinearLayout
+            android:gravity="right|center_vertical"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/right_pointing_arrow"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

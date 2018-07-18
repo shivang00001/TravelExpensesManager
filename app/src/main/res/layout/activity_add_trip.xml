@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_bar"/>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/editTextTripTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Trip Title"
+            android:lines="1"/>
+
+
+        <EditText
+            android:id="@+id/editTextDateOfTrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/calendar"
+            android:focusable="false"
+            android:hint="Date of Trip"
+            android:inputType="date"
+            android:lines="1"/>
+
+        <EditText
+            android:id="@+id/editTextTripDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/textarea_textbox_shape"
+            android:gravity="top"
+            android:hint="Trip Description"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="2"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/buttonSaveTrip"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/capsule_button"
+            android:minHeight="30dp"
+            android:minWidth="30dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="Save Trip"
+            android:textColor="@color/button_text_color"
+            android:textSize="12dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
